@@ -30,6 +30,9 @@ html{
         background-position: 200%;
     }
 }
+.bg-secondary{
+    background-color: rgb(185, 185, 185) !important;
+}
 .navbar-brand{
     line-height: 20px;
     background: rgb (179, 250, 252);
@@ -38,18 +41,18 @@ html{
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #fff;
+     color: #5b5a5a;
     padding: 8px 9px !important;
     transition: all .5s ease;
     font-size: 15px;
 }
 .navbar ul li a:hover{
-    background-color: white;
-    color: black;
+    background-color: rgb(204, 204, 204);
+    color: rgba(48, 86, 95, 0.909);
     font-weight: bold;
-    box-shadow: 0 0 12px hsl(0, 0%, 97%);
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px;
+    box-shadow: 0 0 12px hsl(0, 0%, 44%);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 /*--------------------------------
@@ -81,7 +84,7 @@ html{
 }
 #banner .main .word{
     font-size: 3.3rem;
-    color: white;
+   color: rgb(188, 192, 191);
     font-family: arial;
     font-weight: 500;
     text-shadow: 0 7px 4px rgb(0, 0, 0);
@@ -89,7 +92,7 @@ html{
 }
 #banner .main .word1{
     font-size: 2.5rem;
-    color: white;
+     color: rgb(211, 214, 213);
     font-family: arial;
     font-weight: 500;
     text-shadow: 0 7px 4px  rgb(0, 0, 0);
@@ -198,7 +201,7 @@ html{
     width: 360px;
     height: 380px;
     box-shadow: 0 0 10px 5px #1C3F6E;
-    color: #1C3F6E;
+    color: #009edb;
     text-align: justify;
     margin: 8px;
     padding: 8px;
@@ -217,7 +220,7 @@ html{
 }
 .box i{
     font-size: 1.9rem;
-    color: #1C3F6E;
+    color: #009edb;
     padding: 8px;
     background-color: white;
     border-radius: 100%;
@@ -231,19 +234,22 @@ html{
 /*------------------------------------
  # Skill Section
  -------------------------------------*/
- #Skill ul{
-    background-color: hwb(216 16% 78% / 0.605);
+ #Skill ul {
+    background-color: #f0f0f0;
     color: white;
-    box-shadow: -15px 10px 28px #000000b0, 0 10px 10px rgba(0, 0, 0, 0.733);
- }
-#Skill .progress{
-    box-shadow: 0 4px 10px rgb(23, 23, 23);
-    height: 12px;
+    box-shadow: 0px 1px 10px 1px #adadad;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    color: #009edb !important;
 }
-.progress .progress-bar{
-    background: linear-gradient(135deg, rgba(229, 74, 31, 0.902)0%,rgba(179, 29, 64, 0.788)100%);
+#Skill .progress {
+    box-shadow: 1px 3px 3px 2px #ccc;
+    height: 12px;
+}
+.progress .progress-bar {
+    background: linear-gradient(90deg, rgba(0,91,234,1) 0%, rgba(0,198,251,1) 100%);
     float: left;
-    transition: 3s;
+    transition: 3s;
 }
 #Skill label{
     position: relative;
