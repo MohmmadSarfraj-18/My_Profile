@@ -1,0 +1,68 @@
+/* Navbar */
+.navbar ul{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.navbar a{
+    font-size: 10px !important;
+    margin: 0;
+    padding: 0;
+}
+/* banner */
+#banner .main .btn{   
+    width: 30%;
+}
+/* Headings */
+.heading{
+    font-size: 2.5rem;
+}
+
+/* About */
+#pic{
+    flex-direction: column;
+    align-items: center;
+}
+#pic img{
+    width: 475px;
+    height: 500px;
+}
+#intro h2{
+    text-align: center;
+    padding: 10px;
+}
+/* book-list */
+.modal .modal-body .row{
+    margin: 0rem !important;
+}
+.modal .modal-body .row img{
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+/* hobbies Section */
+#Hobbies #hobi{
+    margin-top: 1.5rem;
+}
+/* contact */
+#submit{
+    width: 50% !important;
+}
+#send{
+    width: 40% !important;
+    display: flex;
+    justify-content: center;
+}
+#contact .icon i{
+    color: white;
+}
+.right .row h3,
+.right .row h3 i{
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.right .row p{
+    color: white;
+    font-weight: bold;
+    font-size: 0.5rem;
+}

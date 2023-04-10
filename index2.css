@@ -1,0 +1,49 @@
+.animate-charcter{
+    font-size: 4rem !important;
+}
+/* Banner */
+#banner .main .word{
+    font-size: 2.5rem;
+}
+#banner .main .word1{
+    font-size: 1.8rem;
+}
+#banner .main .btn{   
+    width: 40%;
+}
+.heading{
+    font-size: 1.7rem;
+}
+
+/* About */
+#pic img{
+    width: 300px;
+    height: 400px;
+}
+#intro h2{
+    font-size: 1.5rem;
+
+}
+/* Hobbies Section */
+#Hobbies #hobi{
+    margin-top: 1.5rem;
+}
+
+/* contact */
+ #submit{
+    width: 50% !important;
+}
+#msg{
+    width: 100%;
+}
+#send{
+    width: 80%;
+}
+#contact .icon i{
+    color: white;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+#contact #copy{
+    font-size: 10px;
+}
