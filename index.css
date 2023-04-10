@@ -32,6 +32,7 @@ html{
 }
 .navbar-brand{
     line-height: 20px;
+    background: rgb (179, 250, 252);
 }
 .navbar ul li a{
     text-decoration: none;
@@ -54,16 +55,15 @@ html{
 /*--------------------------------
  # heading
 ---------------------------------*/
-.heading{
-    font-family: century;
-    color: #1C3F6E;
-    font-size: 2.5rem;
+.heading {
+    color: #009edb;
+    font-size: 5rem;
     text-align: center;
     margin: 50px 0px !important;
     font-weight: bold !important;
-    text-shadow: 5px 5px 5px black;
-    letter-spacing: 2   px;
-} 
+    text-shadow: 3px 3px 5px #a6a6a6;
+    letter-spacing: 2px;
+}
 /*------------------------------
  # home Section 
  -------------------------------*/
@@ -149,26 +149,27 @@ html{
     box-shadow: 0 0 15px #79caf8;
     
 }
-#intro{
+#intro {
     display: flex;
     flex-direction: column;
     text-align: justify;
     padding: 20px;
-    box-shadow: 5px 6px 10px #1C3F6E;
-
+    box-shadow: 0px 0px 10px #cccccc;
+    border: 1px solid #ccc;
+    border-radius: 6px;
 }
-#intro h2{
+#intro h2 {
     font-size: 2.2rem;
-    margin-bottom: 20px;
-    text-shadow: 2px 4px 4px black;
+    margin-bottom: 20px; 
     font-weight: bold;
+    font-family: system-ui;
+    color: #009edb;
 }
-#intro p{
-    font-size: 1.4rem;
-    padding: 4px;
-    word-spacing: 6px;
+#intro p {
+    font-size: 1.2rem;
     margin: 5px;
-    color: steelblue;
+    color: #565856;
+    font-family: math;
 }
 
 /*-----------------------------------
