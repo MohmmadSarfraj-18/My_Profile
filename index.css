@@ -11,7 +11,7 @@ html{
  -----------------------*/
  .animate-charcter{
     text-transform: uppercase;
-    background-image: linear-gradient( -225deg, #70d4e6 0%, #f0e57f 29%, rgb(227, 151, 151) 67%, rgb(151, 147, 221) 100%);
+    background-image: linear-gradient( -225deg, #70d4e6 0%, #86d7dc 29%, rgb(89, 132, 249) 67%, rgb(52, 12, 231) 100%);
     background-size: 200% auto;
     color: #fff;
     -webkit-background-clip: text;
