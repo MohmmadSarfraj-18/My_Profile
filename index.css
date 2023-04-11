@@ -45,12 +45,13 @@ html{
     padding: 8px 9px !important;
     transition: all .5s ease;
     font-size: 15px;
+    font-weight: 600;
 }
 .navbar ul li a:hover{
-    background-color: rgb(204, 204, 204);
-    color: rgba(48, 86, 95, 0.909);
+    background-color: rgb(239, 239, 239);
+    color: #009edb;
     font-weight: bold;
-    box-shadow: 0 0 12px hsl(0, 0%, 44%);
+    box-shadow: 0 0 12px hsl(0, 2%, 92%);
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -309,6 +310,7 @@ html{
     height: 300px;
     margin: 10px;
     border-radius: 10px;
+    opacity: 0.6 !important;
 }
 .gallary .sr img{
     opacity: 1;
@@ -323,8 +325,9 @@ html{
 }
 .sr:hover img{
    transform: scale(1.05);
-    transition: .6  s;
-    filter: grayscale(0) brightness(0.5);
+   transition: .6  s;
+   filter: grayscale(0) brightness(0.5);
+   opacity: 1 !important;
 }
 .sr:hover .middle{
     opacity: 1;
