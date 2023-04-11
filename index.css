@@ -113,21 +113,20 @@ html{
     font-size: 1.5rem;
     letter-spacing: 2px;
     font-family: arial;
-    border: 1px solid white;
+    border: 1px solid  rgb(211, 214, 213);;
     width: 25%;
 }
 #banner .main .btn:hover{
     font-size: 1.5rem;
     padding: 5px;
     font-family: arial;
-    color: #000;
     font-weight: bold;
-    background: white;
-    box-shadow: 0 0 10px white;
+    background:  rgb(176, 176, 176);;
+    box-shadow: 0 0 7px rgb(211, 214, 213);;
     border-radius: 25px;
 }
 #banner .main .btn a:hover{
-    color: #000 !important;
+   color: rgb(81, 81, 81) !important;
 }
 
  
@@ -323,25 +322,25 @@ html{
     -ms-transform: translate(-50%, -50%);
 }
 .sr:hover img{
-    transform: scale(1.05);
+   transform: scale(1.05);
     transition: .6  s;
-    opacity: 0.3;
+    filter: grayscale(0) brightness(0.5);
 }
 .sr:hover .middle{
     opacity: 1;
 }
 .sr .middle .text{
-  background-color: white;
-  color: black;
+  background-color: rgb(247, 245, 245);
+  color: #0480b1;
   font-size: 1.5rem;
   font-weight: bold;
   padding: 6px 25px; 
   position: absolute;
   bottom: 100%; 
-  left: 88%;
+  left: 85%;
   border: none;
   border-radius: 10px;
-  box-shadow: 0 0 15px  white;
+  box-shadow: 0px 0px 8px 2px rgb(191, 191, 191);
 }
 .sr .middle .mb-5{
     margin-bottom: 120px !important;
