@@ -84,7 +84,7 @@ html{
 }
 #banner .main .word{
     font-size: 3.3rem;
-   color: rgb(188, 192, 191);
+    color: rgb(188, 192, 191) !important;
     font-family: arial;
     font-weight: 500;
     text-shadow: 0 7px 4px rgb(0, 0, 0);
@@ -165,7 +165,7 @@ html{
     margin-bottom: 20px; 
     font-weight: bold;
     font-family: system-ui;
-    color: #009edb;
+    color: #009edb !important;
 }
 #intro p {
     font-size: 1.2rem;
@@ -255,7 +255,7 @@ html{
     top: 20px;
 }
  #star{
-    box-shadow: 15px 10px 28px #000000b0, 0 10px 10px rgba(0, 0, 0, 0.733);
+   box-shadow: 0 0 6px 2px #737475;
 }
 
 /*------------------------------------
@@ -469,7 +469,7 @@ html{
     box-shadow: 0 0 20px rgb(250, 250, 250);
 }
 #contact #copy{
-    font-family: 'Montserrat', sans-serif;
+   font-family: monospace;
     font-size: 15px;
 }
 
