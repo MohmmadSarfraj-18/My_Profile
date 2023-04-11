@@ -6,6 +6,10 @@
 html{
     scroll-behavior: smooth;
 }
+
+body{
+    background-color: hsla(0, 9%, 91%, 0.532);
+}
 /*----------------------
  # Navbar 
  -----------------------*/
