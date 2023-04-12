@@ -9,6 +9,7 @@ html{
 
 body{
     background-color: hsla(0, 9%, 91%, 0.532);
+    font-family: 'Montserrat',sans-serif !important;
 }
 /*----------------------
  # Navbar 
