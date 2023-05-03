@@ -245,11 +245,11 @@ body{
     box-shadow: 0px 1px 10px 1px #adadad;
     border-radius: 6px;
     border: 1px solid #ccc;
-    color: #009edb !important;
+    color: #009edb!important;
 }
 #Skill .progress {
     box-shadow: 1px 3px 3px 2px #ccc;
-    height: 10px;
+    height: 10px;
 }
 .progress .progress-bar {
     background: linear-gradient(90deg, rgba(0,91,234,1) 0%, rgba(0,198,251,1) 100%);
@@ -258,7 +258,7 @@ body{
 }
 #Skill label{
     position: relative;
-    top: 20px;
+    top: 25px;
 }
  #star{
    box-shadow: 0px 1px 10px 1px #adadad;
