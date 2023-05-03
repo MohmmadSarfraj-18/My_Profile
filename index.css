@@ -399,6 +399,11 @@ body{
     margin: 0.5rem;
     color: #fff;
 }
+.card .card-body .card .card-body .error{
+    color: red;
+    text-align: left !important;
+    margin: 0px;
+}
 .form-control::placeholder{
     color: rgb(168, 168, 168) !important;
 }
@@ -420,13 +425,13 @@ body{
    font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
 }
-#submit:hover{
+.submit:hover{
     box-shadow: 0 0px 8px hsl(0, 2%, 81%);
     transition: 0.3s;
     border-radius: 2rem;
-    background-color: white;
-    color: #000;
-    font-weight: bold;
+    background-color: white !important;
+    color: #000 !important;
+    font-weight: 500;
     letter-spacing: 2px;
 }
 
