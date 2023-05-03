@@ -249,7 +249,7 @@ body{
 }
 #Skill .progress {
     box-shadow: 1px 3px 3px 2px #ccc;
-    height: 12px;
+    height: 10px;
 }
 .progress .progress-bar {
     background: linear-gradient(90deg, rgba(0,91,234,1) 0%, rgba(0,198,251,1) 100%);
