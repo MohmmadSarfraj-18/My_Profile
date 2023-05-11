@@ -1,11 +1,10 @@
 let firstName = document.getElementById("name");
-let lastName = document.getElementById("lastName");
-let mail = document.getElementById("email");
-let sub = document.getElementById("subject");
-let textarea = document.getElementById("textarea");
-let checkname = false;
-let checklName = false;
-let checkmail = false;
+let lastName = document.getElementById("lastname");
+let mail = document.getElementById("Email");
+let subject = document.getElementById("subject");
+let text = document.getElementById("textarea");
+let checkname = true;
+let checkmail = true;
 
 function validation() {
     /*------  First Name -------*/
@@ -20,15 +19,17 @@ function validation() {
         firstName.style="border:2px solid green";
     }
 
-     /*------  last Name -------*/
-    if(lastName.value){
-        checkname = true;
-        //document.getElementById("lastName").innerHTML = "";
+    /*-----------------------------
+      lastName Validation
+    ------------------------------*/
+    if (lastName.value.trim()) {
+        document.getElementById("lastname").innerHTML = "";
         lastName.style="border:2px solid green";
     }
 
     /*------ Email@ ------ */
     var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
     if(mail.value.trim() == '')
     {
         //alert("helloooooooooo");
@@ -44,21 +45,35 @@ function validation() {
     else{
         checkmail = false;
          document.getElementById("mail").innerHTML = "* Enter valid Email.";
-         mail.style="border:2px solid red";
+         //mail.style="border:2px solid red";
     }
 
-    /*------ Subject ------ */
-    if(sub.value.trim())
-    {
-        //document.getElementById("sub1").innerHTML = "";
-        sub.style="border:2px solid green";
+    /*-----------------------------
+      Subject  Validation
+    ------------------------------*/
+    if (subject.value.trim()) {
+        document.getElementById("subject").innerHTML = "";
+        subject.style="border:2px solid green";
     }
 
-     /*------ textArea....! ------ */
-     if(textarea.value.trim())
+    /*-----------------------------
+      Subject  Validation
+    ------------------------------*/
+    if (text.value.trim()) {
+        document.getElementById("textarea").innerHTML = "";
+        text.style="border:2px solid green";
+    }
+
+     /************************
+        check return
+      ***********************/
+     if(checkname == true && checkmail == true)
      {
-         //document.getElementById("textarea1").innerHTML = "";
-         textarea.style="border:2px solid green";
+        return true;
+     }
+     else
+     {
+        return false;
      }
 
 }
