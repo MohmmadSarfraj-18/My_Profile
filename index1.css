@@ -25,12 +25,19 @@
 #pic img{
     width: 475px;
     height: 500px;
+    margin-bottom: 20px;
 }
 #intro h2{
     text-align: center;
     padding: 10px;
 }
-/* book-list */
+
+/* education */
+.box{
+    margin: 20px !important;
+}
+
+/* Look-book */
 .modal .modal-body .row{
     margin: 0rem !important;
 }
