@@ -644,15 +644,15 @@
                     <div class="col-xl-6 col-lg-6 col-md-7 col-sm-12">
                         <div class="card border-white border-2 rounded-end-0  ms-4  p-1 sarfraj" style="box-shadow: 3px 4px 2px rgb(130, 127, 127);">
                             <div class="card-body">
-                                <form action="" onsubmit="return validation()">
-                                    <input type="text" id="name" placeholder="First Name" class="form-control">
+                                 <form method="" onsubmit="return validation();">
+                                    <input type="text" id="name" name="fname" placeholder="First Name" class="form-control">
                                     <p id="name1" class="error"></p>
-                                    <input type="text" id="lastName" placeholder="Last Name" class="form-control">
-                                    <input type="text"  id="email" placeholder="Enter Email@.com" class="form-control">
+                                    <input type="text" name="lname" placeholder="Last Name" class="form-control">
+                                    <input type="text" name="email"  id="email" placeholder="Enter Email@.com" class="form-control">
                                     <p id="mail" class="error"></p>
-                                    <input type="text" placeholder="Subject" class="form-control" id="subject">
-                                    <textarea cols="30" rows="5" placeholder="Enter Your mssage." class="form-control" style="resize: none;" id="textarea"></textarea>
-                                    <input type="submit" class="submit btn border-white w-25 mt-3" />
+                                    <input type="text" name="subject" placeholder="Subject" class="form-control">
+                                    <textarea cols="30" name="msg" rows="5" placeholder="Enter Your mssage." class="form-control" style="resize: none;"></textarea>
+                                    <input type="submit" class="submit btn border-white w-25 mt-3"/>
                                 </form>
                             </div>
                         </div>
