@@ -3,16 +3,16 @@
 }
 /* Banner */
 #banner .main .word{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 #banner .main .word1{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 #banner .main .btn{   
     width: 40%;
 }
 .heading{
-    font-size: 1.7rem;
+    font-size: 2.5rem;
 }
 
 /* About */
@@ -24,13 +24,22 @@
     font-size: 1.5rem;
 
 }
+
+/* education */
+.box{
+    margin: 20px 40px !important;
+}
+
 /* Hobbies Section */
 #Hobbies #hobi{
     margin-top: 1.5rem;
 }
+#hobi h1{
+    font-size: 1.5rem;
+}
 
 /* contact */
- #submit{
+ .submit{
     width: 50% !important;
 }
 #msg{
