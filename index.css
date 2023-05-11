@@ -9,7 +9,6 @@ html{
 
 body{
     background-color: hsla(0, 9%, 91%, 0.532);
-    font-family: 'Montserrat',sans-serif !important;
 }
 /*----------------------
  # Navbar 
@@ -36,11 +35,10 @@ body{
     }
 }
 .bg-secondary{
-   background-color: #009edb!important;
+    background-color: #009edb!important;
 }
 .navbar-brand{
     line-height: 20px;
-    background: rgb (179, 250, 252);
 }
 .navbar ul li a{
     text-decoration: none;
@@ -51,14 +49,18 @@ body{
     transition: all .5s ease;
     font-size: 15px;
     font-weight: 600;
+
 }
 .navbar ul li a:hover{
     background-color: rgb(239, 239, 239);
-    color: #009edb !important;
+    color: #009edb;
     font-weight: bold;
     box-shadow: 0 0 12px hsl(0, 2%, 92%);
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+.navbar .navbar-collapse{
+    columns: white !important;
 }
 
 /*--------------------------------
@@ -90,7 +92,7 @@ body{
 }
 #banner .main .word{
     font-size: 3.3rem;
-    color: rgb(188, 192, 191) !important;
+    color: rgb(188, 192, 191);
     font-family: arial;
     font-weight: 500;
     text-shadow: 0 7px 4px rgb(0, 0, 0);
@@ -98,7 +100,7 @@ body{
 }
 #banner .main .word1{
     font-size: 2.5rem;
-     color: rgb(211, 214, 213);
+    color: rgb(188, 192, 191);
     font-family: arial;
     font-weight: 500;
     text-shadow: 0 7px 4px  rgb(0, 0, 0);
@@ -132,7 +134,7 @@ body{
     border-radius: 25px;
 }
 #banner .main .btn a:hover{
-   color: rgb(81, 81, 81) !important;
+    color: rgb(81, 81, 81) !important;
 }
 
  
@@ -151,10 +153,10 @@ body{
 }
 #about #pic img{
     width: 397px !important; 
-    height: 294px;
+    height: 298px;
     border: 1px solid #cccccc;
     border-radius: 7px;
-    box-shadow: 0 0 9px #ccccccc;
+    box-shadow: 0 0 9px #cccccc;
     
 }
 #intro {
@@ -205,7 +207,7 @@ body{
     flex-direction: column;
     width: 360px;
     height: 380px;
-   box-shadow: 0 0 8px 2px #aaaaab;
+    box-shadow: 0 0 8px 2px #aaaaab;
     color: #484949;
     text-align: justify;
     margin: 8px;
@@ -220,8 +222,8 @@ body{
     transform: scale(1.05);
     background-position: left bottom;    
     color:  rgba(6, 157, 188, 0.909);
-    border: none;
     box-shadow: 0 0 8px 2px #aaaaab;
+
 }
 .box i{
     font-size: 1.9rem;
@@ -261,14 +263,14 @@ body{
     top: 25px;
 }
  #star{
-   box-shadow: 0px 1px 10px 1px #adadad;
+    box-shadow: 0px 1px 10px 1px #adadad;
 }
 
 /*------------------------------------
   # Hobbies Section
 -------------------------------------*/
 #hobby{
-   height: 280px !important;
+    height: 280px !important;
     width: 320px !important;
     border-radius: 100%;
     box-shadow: 0px 2px 7px 1px #adadad;
@@ -279,11 +281,11 @@ body{
 #hobby:hover{
     filter: grayscale(0) brightness(1);
     cursor: crosshair;
-    transform: scale(1.1);
+    transform: scale(1.07);
 }
 #hobi h1{
-  text-transform: capitalize;
-    font-size: 1.8rem;
+    text-transform: capitalize;
+    font-size: 2rem;
     margin: 25px !important;
     font-family: arial;
     color: #037bab;
@@ -296,7 +298,7 @@ body{
  # booklist Section
 -------------------------------------*/
 #Lookbook{
-   display: flex;
+    display: flex;
     flex-direction: column;
     background-color: rgba(238, 237, 237, 0.9);
     color: #fff;
@@ -311,10 +313,10 @@ body{
     box-sizing: border-box;
 }
 .gallary img{
-   width: 380px;
+    width: 380px;
     height: 300px;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 8px;
     opacity: 0.6 !important;
 }
 .gallary .sr img{
@@ -329,10 +331,11 @@ body{
     -ms-transform: translate(-50%, -50%);
 }
 .sr:hover img{
-   transform: scale(1.05);
-   transition: .6  s;
-   filter: grayscale(0) brightness(0.5);
-   opacity: 1 !important;
+    transform: scale(1.05);
+    transition: .6  s;
+    filter: grayscale(0) brightness(0.5);
+    opacity: 1 !important;
+
 }
 .sr:hover .middle{
     opacity: 1;
@@ -362,7 +365,7 @@ body{
     border-radius: 10px;
     width: 100%;
     height: 400px;
-    box-shadow: 0 0 10px 2px hsl(347, 83%, 57%);
+    box-shadow: 0 0 10px 2px hsl(191, 97%, 38%);
 }
 .modal .modal-body .row img:hover{
     transform: scale(1.2,1.1);
@@ -422,7 +425,7 @@ body{
     font-weight: 100;
 }
 #second span{
-   font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
 }
 .submit:hover{
@@ -482,7 +485,7 @@ body{
     box-shadow: 0 0 20px rgb(250, 250, 250);
 }
 #contact #copy{
-   font-family: monospace;
+    font-family: monospace;
     font-size: 15px;
 }
 
