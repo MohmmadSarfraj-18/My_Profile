@@ -1,3 +1,19 @@
+/*------------------------------------
+    Navbar jQuery Code..
+------------------------------------*/
+$(document).ready(function(){
+    
+    $('.js-scroll-triger').click(function(){
+        $('.navbar-collapse').collapse('hide');
+    });
+
+});
+
+
+/*------------------------------------
+  Form Validation Code Satrating.. 
+-------------------------------------*/
+
 let firstName = document.getElementById("name");
 let lastName = document.getElementById("lastname");
 let mail = document.getElementById("Email");
