@@ -489,3 +489,18 @@ body{
     font-size: 15px;
 }
 
+/* Go TO Top Button. */
+body .bg-danger{
+    position: fixed;
+    display: none;
+    background-color: #009edb !important;
+    bottom: 25px;
+    right: 25px;
+    width: 60px;
+    padding: 20px;
+    border-radius: 6px;
+}
+body .bg-danger i{
+    font-size: 2rem;
+    font-weight: bold;
+}
