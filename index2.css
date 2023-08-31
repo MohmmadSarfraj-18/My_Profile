@@ -56,3 +56,11 @@
 #contact #copy{
     font-size: 10px;
 }
+
+/* Go TO Top Button. */
+body .bg-danger{
+    position: fixed;
+    display: none;
+    background-color: #009edb !important;
+    bottom: 50px;
+}
